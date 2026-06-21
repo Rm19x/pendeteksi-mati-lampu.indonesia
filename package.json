@@ -1,0 +1,30 @@
+{
+  "name": "deteksi-mati-lampu",
+  "version": "1.0.0",
+  "description": "Sistem Deteksi Mati Lampu Real-Time Seluruh Indonesia - By Mr.Rm19",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "indonesia",
+    "pln",
+    "blackout-detection",
+    "realtime-map",
+    "mr-rm19"
+  ],
+  "author": "Mr.Rm19 <github.com/Rm19x>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "pg": "^8.12.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
